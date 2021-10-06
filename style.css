@@ -25,13 +25,19 @@
 .section_main_container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     width: 90%;
     margin: auto;
 }
 .section1_container{
     background-color: rgb(223, 200, 200);
     height: 400px;
+    color: #AA481E;
+    padding: 10px;
+    border-radius: 10px;
+}
+.section2_container{
+    background-color: rgb(223, 200, 200);
+    height: 200px;
     color: #AA481E;
     padding: 10px;
     border-radius: 10px;
