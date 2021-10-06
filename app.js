@@ -6,6 +6,7 @@ const total = document.getElementById("total");
 
 // Event listener
 form.addEventListener('submit',getTotals);
+form.addEventListener('submit',incomeOverTime)
 
 // Total amount in litres
 function getTotals(e){
@@ -19,5 +20,15 @@ function getTotals(e){
 
     e.preventDefault();
 }
+// Total amount on a weekly basis
 
+function incomeOverTime(){
+
+    const answer = parseFloat(field1.value)+parseFloat(field2.value)
+                   +parseFloat(field3.value)+parseFloat(field4.value) * 45 * 7;
+
+    if(!isNaN(result)){
+       total.innerHTML = answer+ " Litres";
+    }
+}
 
