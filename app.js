@@ -113,7 +113,7 @@ function incomePerMonth(){
                 +parseFloat(field3.value)+parseFloat(field4.value) * 45 * 31;
 
     if(!isNaN(jul)){
-    july.innerHTML = "Income for January is "+jul;
+    july.innerHTML = "Income for July is "+jul;
 }
 // Income for August
     const aug = parseFloat(field1.value)+parseFloat(field2.value)

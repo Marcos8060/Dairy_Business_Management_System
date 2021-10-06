@@ -83,6 +83,7 @@ input{
 }
 .list{
     margin: 10px;
+    margin-left: 40px;
 }
 ul li{
     list-style-type: none;
