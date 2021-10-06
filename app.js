@@ -47,4 +47,8 @@ function incomeOverTime(){
        yearlyIncome.innerHTML = "Your yearly income will be <br> ksh "+response;
     }
 }
+// looping through the months array
+months.forEach((month)=>{
+    return console.log(month);
+})
 
