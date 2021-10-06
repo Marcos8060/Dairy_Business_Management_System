@@ -1,3 +1,9 @@
+months = ["January","February","March",
+          "April","May","June", "July",
+          "August","September","October",
+          "November","December"
+        ]
+// catching the Ids
 const field1 = document.getElementById("num1");
 const field2 = document.getElementById("num2");
 const field3 = document.getElementById("num3");
