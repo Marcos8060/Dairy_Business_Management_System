@@ -30,7 +30,7 @@
 }
 .section1_container{
     background-color: rgb(223, 200, 200);
-    height: 450px;
+    height: 480px;
     color: #AA481E;
     padding: 10px;
     border-radius: 10px;
@@ -82,5 +82,8 @@ input{
     justify-content: space-around;
 }
 .list{
-    
+    margin: 10px;
+}
+ul li{
+    list-style-type: none;
 }
