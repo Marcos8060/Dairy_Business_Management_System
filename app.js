@@ -10,7 +10,8 @@ const field3 = document.getElementById("num3");
 const field4 = document.getElementById("num4");
 const total = document.getElementById("total");
 const weeklyIncome = document.getElementById("weekly");
-const yearlyIncome = document.getElementById("yearly")
+const yearlyIncome = document.getElementById("yearly");
+const singleMonths = document.getElementById("list")
 
 // Event listener
 form.addEventListener('submit',getTotals);
@@ -47,8 +48,22 @@ function incomeOverTime(){
        yearlyIncome.innerHTML = "Your yearly income will be <br> ksh "+response;
     }
 }
-// looping through the months array
-months.forEach((month)=>{
-    return console.log(month);
-})
+// getting the individual months
+   singleMonths.innerHTML =`
+        <ul>
+            <li class="list">Income for ${months[0]} is</li>
+            <li class="list">Income for ${months[1]} is</li>
+            <li class="list">Income for ${months[2]} is</li>
+            <li class="list">Income for ${months[3]} is</li>
+            <li class="list">Income for ${months[4]} is</li>
+            <li class="list">Income for ${months[5]} is</li>
+            <li class="list">Income for ${months[6]} is</li>
+            <li class="list">Income for ${months[7]} is</li>
+            <li class="list">Income for ${months[8]} is</li>
+            <li class="list">Income for ${months[9]} is</li>
+            <li class="list">Income for ${months[10]} is</li>
+            <li class="list">Income for ${months[11]} is</li>
+        </ul>
+  `
+
 
