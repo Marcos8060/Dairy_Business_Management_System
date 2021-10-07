@@ -35,15 +35,15 @@ function getTotals(e){
 function incomeOverTime(){
     
     // weekly income
-    const answer = parseFloat(field1.value)+parseFloat(field2.value)
-                   +parseFloat(field3.value)+parseFloat(field4.value) * 45 * 7 *7;
+    const answer = (parseFloat(field1.value)+parseFloat(field2.value)
+                   +parseFloat(field3.value)+parseFloat(field4.value)) * 45 * 7;
 
     if(!isNaN(answer)){
        weeklyIncome.innerHTML = "Your weekly income will be <br> ksh "+answer;
     }
     // Yearly income
-    const response = parseFloat(field1.value)+parseFloat(field2.value)
-                     +parseFloat(field3.value)+parseFloat(field4.value) * 45 * 7 * 52;
+    const response = (parseFloat(field1.value)+parseFloat(field2.value)
+                     +parseFloat(field3.value)+parseFloat(field4.value)) * 45 * 7 * 52;
 
     if(!isNaN(response)){
        yearlyIncome.innerHTML = "Your yearly income will be <br> ksh "+response;
@@ -67,85 +67,85 @@ function incomePerMonth(){
     const december = document.getElementById("december");
 
     // Income for January
-    const jan = parseFloat(field1.value)+parseFloat(field2.value)
-                +parseFloat(field3.value)+parseFloat(field4.value) * 45 * 31;
+    const jan = (parseFloat(field1.value)+parseFloat(field2.value)
+                +parseFloat(field3.value)+parseFloat(field4.value)) * 45 * 31;
 
     if(!isNaN(jan)){
     january.innerHTML = "Income for January is "+jan;
 }
 // Income for February
-    const feb = parseFloat(field1.value)+parseFloat(field2.value)
-                +parseFloat(field3.value)+parseFloat(field4.value) * 45 * 29;
+    const feb = (parseFloat(field1.value)+parseFloat(field2.value)
+                +parseFloat(field3.value)+parseFloat(field4.value)) * 45 * 29;
 
     if(!isNaN(feb)){
     february.innerHTML = "Income for February is "+feb;
 }
 // Income for March
-    const mar = parseFloat(field1.value)+parseFloat(field2.value)
-                +parseFloat(field3.value)+parseFloat(field4.value) * 45 * 31;
+    const mar = (parseFloat(field1.value)+parseFloat(field2.value)
+                +parseFloat(field3.value)+parseFloat(field4.value)) * 45 * 31;
 
     if(!isNaN(mar)){
     march.innerHTML = "Income for March is "+mar;
 }
 // Income for April
-    const apr = parseFloat(field1.value)+parseFloat(field2.value)
-                +parseFloat(field3.value)+parseFloat(field4.value) * 45 * 30;
+    const apr = (parseFloat(field1.value)+parseFloat(field2.value)
+                +parseFloat(field3.value)+parseFloat(field4.value)) * 45 * 30;
 
     if(!isNaN(apr)){
     april.innerHTML = "Income for April is "+apr;
     }
     // Income for May
-    const mayi = parseFloat(field1.value)+parseFloat(field2.value)
-                +parseFloat(field3.value)+parseFloat(field4.value) * 45 * 31;
+    const mayi = (parseFloat(field1.value)+parseFloat(field2.value)
+                +parseFloat(field3.value)+parseFloat(field4.value)) * 45 * 31;
 
     if(!isNaN(mayi)){
     may.innerHTML = "Income for May is "+mayi;
 }
 // Income for June
-    const jun = parseFloat(field1.value)+parseFloat(field2.value)
-                +parseFloat(field3.value)+parseFloat(field4.value) * 45 * 30;
+    const jun = (parseFloat(field1.value)+parseFloat(field2.value)
+                +parseFloat(field3.value)+parseFloat(field4.value)) * 45 * 30;
 
     if(!isNaN(jun)){
     june.innerHTML = "Income for June is "+jan;
     }
     // Income for July
-    const jul = parseFloat(field1.value)+parseFloat(field2.value)
-                +parseFloat(field3.value)+parseFloat(field4.value) * 45 * 31;
+    const jul = (parseFloat(field1.value)+parseFloat(field2.value)
+                +parseFloat(field3.value)+parseFloat(field4.value)) * 45 * 31;
 
     if(!isNaN(jul)){
     july.innerHTML = "Income for July is "+jul;
 }
 // Income for August
-    const aug = parseFloat(field1.value)+parseFloat(field2.value)
-                +parseFloat(field3.value)+parseFloat(field4.value) * 45 * 31;
+    const aug = (parseFloat(field1.value)+parseFloat(field2.value)
+                +parseFloat(field3.value)+parseFloat(field4.value)) * 45 * 31;
 
     if(!isNaN(aug)){
     august.innerHTML = "Income for August is "+aug;
     }
     // Income for September
-    const sep = parseFloat(field1.value)+parseFloat(field2.value)
-                +parseFloat(field3.value)+parseFloat(field4.value) * 45 * 30;
+    const sep = (parseFloat(field1.value)+parseFloat(field2.value)
+                +parseFloat(field3.value)+parseFloat(field4.value)) * 45 * 30;
 
     if(!isNaN(sep)){
     september.innerHTML = "Income for September is "+sep;
 }
 // Income for October
-    const oct = parseFloat(field1.value)+parseFloat(field2.value)
-                +parseFloat(field3.value)+parseFloat(field4.value) * 45 * 31;
+    const oct = (parseFloat(field1.value)+parseFloat(field2.value)
+                +parseFloat(field3.value)+parseFloat(field4.value)) * 45 * 31;
 
     if(!isNaN(oct)){
      october.innerHTML = "Income for October is "+oct;
     }
     // Income for November
-    const nov = parseFloat(field1.value)+parseFloat(field2.value)
-                +parseFloat(field3.value)+parseFloat(field4.value) * 45 * 30;
+    const nov = (parseFloat(field1.value)+parseFloat(field2.value)
+                +parseFloat(field3.value)+parseFloat(field4.value)) * 45 * 30;
 
     if(!isNaN(nov)){
     november.innerHTML = "Income for November is "+nov;
     }
     // Income for December
-    const dec = parseFloat(field1.value)+parseFloat(field2.value)
-                +parseFloat(field3.value)+parseFloat(field4.value) * 45 * 31;
+    const dec = (parseFloat(field1.value)+parseFloat(field2.value)
+                +parseFloat(field3.value)+parseFloat(field4.value)) * 45 * 31;
 
     if(!isNaN(dec)){
     december.innerHTML = "Income for December is "+dec;
