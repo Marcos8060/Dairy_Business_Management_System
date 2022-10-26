@@ -9,7 +9,7 @@ document.getElementById("logout-btn").onclick = (() => {
         }).then(function(){
             $("#spinner").hide()
             $("#signin").show()
-            window.location.href = "/registrationLogin/login"
+            window.location.href = "/registrationLogin/login.html"
             return false
         })
     }).catch(error => {
